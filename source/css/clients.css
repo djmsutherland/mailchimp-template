@@ -1,0 +1,35 @@
+#outlook a {
+  padding: 0;
+}
+
+.ReadMsgBody {
+  width: 100%;
+}
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass td,
+.ExternalClass div,
+.ExternalClass span,
+.ExternalClass font {
+  line-height: 100%;
+}
+
+a[href^=tel], a[href^=sms] {
+  color: inherit;
+  cursor: default;
+  text-decoration: none;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}

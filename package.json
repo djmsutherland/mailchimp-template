@@ -1,0 +1,27 @@
+{
+  "name": "mailchimp_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/index.html",
+  "scripts": {
+    "build": "npm run webpack:build",
+    "clean": "rimraf package",
+    "copy": "mkdir package && cp source/index.html package/index.html",
+    "prebuild": "npm run clean && npm run copy",
+    "start": "npm run webpack:serve -- --content-base source",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:build": "webpack --config .webpack.js",
+    "webpack:serve": "webpack-dev-server --config .webpack.js"
+  },
+  "keywords": [],
+  "author": "Dan Sutherland",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "0.28.3",
+    "extract-text-webpack-plugin": "2.1.0",
+    "rimraf": "2.6.1",
+    "style-loader": "0.18.1",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.4.5"
+  }
+}

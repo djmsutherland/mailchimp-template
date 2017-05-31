@@ -1,0 +1,39 @@
+img,
+a img {
+  border: 0;
+  height: auto;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.hero-image {
+  height: auto;
+  max-width: 600px;
+}
+
+.body-image {
+  height: auto;
+  max-width: 560px;
+}
+
+.footer-logo {
+  height: auto;
+  max-width: 88px;
+}
+
+.social-icons {
+  height: auto;
+  max-width: 34px;
+}
+
+.download-icons {
+  height: auto;
+  max-width: 103px;
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'bariol-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bariol_bold-webfont.woff2') format('woff2'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bariol_bold-webfont.woff') format('woff'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bariol_bold-webfont.ttf') format('truetype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bariol_bold-webfont.svg#bariolbold') format('svg');
+}
+
+@font-face {
+  font-family: 'bryant-regular-condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-regular-condensed.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-regular-condensed.woff') format('woff'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-regular-condensed.ttf') format('truetype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-regular-condensed.svg#bryantregular_condensed') format('svg');
+}
+
+@font-face {
+  font-family: 'bryant-medium-condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-medium-condensed.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-medium-condensed.woff') format('woff'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-medium-condensed.ttf') format('truetype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-medium-condensed.svg#bryantbold_condensed') format('svg');
+}
+
+@font-face {
+  font-family: 'bryant-bold-condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-bold-condensed.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-bold-condensed.woff') format('woff'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-bold-condensed.ttf') format('truetype'),
+       url('https://s3-ap-southeast-2.amazonaws.com/skip-email-assets/fonts/bryant-bold-condensed.svg#bryantbold_condensed') format('svg');
+}

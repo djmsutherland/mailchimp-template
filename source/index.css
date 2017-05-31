@@ -1,0 +1,15 @@
+@import 'css/fonts.css';
+@import 'css/body.css';
+@import 'css/template.css';
+@import 'css/type.css';
+@import 'css/button.css';
+@import 'css/images.css';
+
+table {
+  border-collapse: collapse;
+}
+
+table {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}

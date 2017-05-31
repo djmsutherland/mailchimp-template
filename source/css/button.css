@@ -1,0 +1,73 @@
+/*
+@tab Template
+@section button gutters
+*/
+
+.template-button {
+  /* @editable */ padding: 0 10px 30px;
+}
+
+/*
+@tab Button
+@section button radius
+*/
+
+.button-radius {
+  /* @editable */ -webkit-border-radius: 4px;
+  /* @editable */ -moz-border-radius: 4px;
+  /* @editable */ border-radius: 4px;
+}
+
+/*
+@tab Button
+@section primary background colour
+*/
+
+.primary-background {
+  /* @editable */ background-color: #f45333;
+}
+
+/*
+@tab Button
+@section primary border
+*/
+
+.primary-border {
+  /* @editable */ border: 1px solid #f45333;
+}
+
+/*
+@tab Button
+@section secondary background colour
+*/
+
+.secondary-background {
+  /* @editable */ background-color: #4d515c;
+}
+
+/*
+@tab Button
+@section secondary border
+*/
+
+.secondary-border {
+  /* @editable */ border: 1px solid #4d515c;
+}
+
+/*
+@tab Button
+@section button
+@style button
+*/
+
+.button {
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+  /* @editable */ font-size: 13px;
+  /* @editable */ font-weight: bold;
+  /* @editable */ padding: 12px 18px;
+  /* @editable */ width: 160px;
+}

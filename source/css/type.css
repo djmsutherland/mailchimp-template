@@ -1,0 +1,184 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+p,
+a,
+li,
+td,
+blockquote {
+  mso-line-height-rule: exactly;
+}
+
+p,
+a,
+li,
+td,
+body,
+table,
+blockquote {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*
+@tab Text
+@section heading 1
+@style heading 1
+*/
+
+h1 {
+  color: #f45333;
+  font-family: 'bariol-bold', Arial, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+  /* @editable */ text-align: center;
+}
+
+/*
+@tab Text
+@section heading 2
+@style heading 2
+*/
+
+h2,
+.intro,
+.outro {
+  color: #0db7ba;
+  font-family: 'bryant-bold-condensed', Arial, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+  /* @editable */ text-align: left;
+}
+
+.intro,
+.outro {
+  margin-bottom: 0;
+}
+
+/*
+@tab Text
+@section heading 3
+@style heading 3
+*/
+
+h3 {
+  color: #f45333;
+  font-family: 'bryant-bold-condensed', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+  /* @editable */ text-align: left;
+}
+
+/*
+@tab Text
+@section heading 4
+@style heading 4
+*/
+
+h4,
+strong {
+  color: #4d515c;
+  font-family: 'bryant-bold-condensed', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+  /* @editable */ text-align: left;
+}
+
+/*
+@tab Text
+@section heading 5
+@style heading 5
+*/
+
+h5 {
+  color: #f45333;
+  font-family: 'bryant-bold-condensed', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+}
+
+/*
+@tab Text
+@section paragraph
+@style paragraph
+*/
+
+p {
+  color: #4d515c;
+  font-family: 'bryant-regular-condensed', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+  /* @editable */ text-align: left;
+}
+
+/*
+@tab Text
+@section small paragraph
+@style small paragraph
+*/
+
+small {
+  display: block;
+  color: #4d515c;
+  font-family: 'bryant-regular-condensed', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  /* @editable */ line-height: 150%;
+  /* @editable */ letter-spacing: normal;
+  /* @editable */ text-align: center;
+}
+
+/*
+@tab Text
+@section anchor 1
+@style anchor 1
+*/
+
+a {
+  color: #f45333;
+  font-family: 'bryant-medium-condensed', Arial, sans-serif;
+  text-decoration: none;
+}
+
+/*
+@tab Text
+@section anchor 2
+@style anchor 2
+*/
+
+a.variant {
+  color: #4d515c;
+  text-decoration: underline;
+}

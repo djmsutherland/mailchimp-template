@@ -1,0 +1,127 @@
+/*
+@tab Page
+@section Email Border
+*/
+
+.template-container {
+  max-width: 600px !important;
+  /* @editable */ border: 0;
+}
+
+/*
+@tab Template
+@section hero
+*/
+
+#template-hero {
+	/* @editable */ background-color: #fdf8e3;
+	/* @editable */ padding-bottom: 30px;
+}
+
+/*
+@tab Template
+@section heading
+*/
+
+#template-heading {
+	/* @editable */ background-color: #fff;
+  /* @editable */ padding: 30px;
+}
+
+/*
+@tab Template
+@section body
+*/
+
+.template-body {
+  /* @editable */ background-color: #fff;
+  /* @editable */ padding: 0 30px 30px;
+}
+
+/*
+@tab Template
+@section button
+*/
+
+.template-button {
+  /* @editable */ background-color: #fff;
+}
+
+@media only screen and (max-width: 480px){
+	.template-button {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .template-button table {
+    margin: 0 auto !important;
+  }
+}
+
+/*
+@tab Template
+@section logo
+*/
+
+#template-logo {
+  /* @editable */ background-color: #fff;
+  /* @editable */ padding-bottom: 30px;
+}
+
+/*
+@tab Template
+@section social
+*/
+
+#template-social {
+  /* @editable */ background-color: #fff;
+  /* @editable */ padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px){
+	#template-social {
+    display: block !important;
+  }
+
+  #template-social table {
+    margin: 0 auto !important;
+  }
+}
+
+/*
+@tab Template
+@section download
+*/
+
+#template-download {
+  /* @editable */ background-color: #fff;
+  /* @editable */ padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px){
+	#template-download {
+    display: block !important;
+  }
+
+  #template-download table {
+    margin: 0 auto !important;
+  }
+}
+
+/*
+@tab Template
+@section icon gutters
+*/
+
+.template-icons {
+  /* @editable */ padding: 0 5px;
+}
+
+/*
+@tab Template
+@section icon gutters
+*/
+#template-footer {
+	/* @editable */ background-color: #fdf8e3;
+  /* @editable */ padding: 30px;
+}
